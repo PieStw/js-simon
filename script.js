@@ -33,7 +33,7 @@ function check(){
   for(let i = 0; i < 5; i++){
 
     if(numberList.includes(guess[i]))
-      output += guess[i] + " ";
+      output += guess[i] + ", ";
 
   }
   
@@ -46,7 +46,7 @@ let numberList = generateNumber();
 console.log(numberList);
 
 
-let count = 15;
+let count = 30;
 
 let endTimer = false;
 

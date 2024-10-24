@@ -11,13 +11,13 @@
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-
-  <div class="row">
-    <p id="countdown">15</p>
+<div class="container main-div">
+  <div class="row mt-4">
+    <p id="countdown">30</p>
   </div>
 
   <form>
-    <div class="row">
+    <div class="row justify-content-center mt-4">
       <div class="col-2">
         <input class="form-control" type="text" aria-label="default input example" id="random-number1" required>
       </div>
@@ -35,14 +35,17 @@
       </div>
     </div>
 
-    <button type="submit" class="btn btn-primary mb-3" id="restart">Ricomincia</button>
-    <button type="submit" class="btn btn-primary mb-3" id="guess">Verifica</button>
-
   </form>
 
-  <p id="solution"></p>
+  <div class="col mt-4">
+    <button type="submit" class="btn btn-primary mb-3" id="restart">Ricomincia</button>
+    <button type="submit" class="btn btn-primary mb-3" id="guess">Verifica</button>
+  </div>
+  
 
+  <p id="solution" class="mb-4"></p>
 
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
